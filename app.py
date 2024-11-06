@@ -372,7 +372,7 @@ with gr.Blocks() as demo:
             with gr.Column():
                 # output image
                 output_image = gr.Image(label="Output Image")
-                save_images = gr.Checkbox(label="Save generated images", value=False)
+                save_images = gr.Checkbox(label="Save generated images", value=True)
 
     # click
     generate_button.click(
